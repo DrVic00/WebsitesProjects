@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylePHP.css">
+    <link rel="icon" href="spyware.png">
+    <title>Encrypt</title>
+</head>
+<body>
+    <main>
+        <form method="POST" action="indexAE.php">
+            <div class="inputs">
+                <label for="textTE">Write text to encrypt: </label>
+                <input type="text" name="textTE" id="textTEinput" class="to_full">
+                <label for="cipherType">Choose a cipher type: </label>
+                    <select name="cipherType" class="to_full">
+                        <option value="BasicIncrypt">BasicIncrypt (Przestawieniowy)</option>
+                        <option value="Homophonic">Homophonic (Homofoniczny podstawieniowy)</option>
+                        <option value="Cezar">Cezar (Szyfr Cezara)</option>
+                        <option value="Fractional">Fractional (Ulamkowy)</option>
+                    </select>
+            </div>
+            <input type="submit" name="submit" class="submit" value="Submit">
+        </form>
+        <br><a href="main.php">Go to main page</a>
+        <br><p>or</p>
+        <br><a href="logout.php">Logout</a>
+    </main>
+</body>
+</html>
