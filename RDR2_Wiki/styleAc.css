@@ -1,0 +1,60 @@
+body{
+    background-image: url(https://www.rockstargames.com/reddeadredemption2/dist/img/global/features/7ea7dc0fb3e78ce6a5e9c27b694ee07b.jpg);
+    color: rgba(5, 0, 0, 0.862);
+}
+
+.main{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 70%;
+    background-image: url(img/paper.png);
+    text-align: center;
+}
+
+form{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 70%;
+    background-image: url(img/paper.png);
+    text-align: center;
+}
+
+button{
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    border: black solid 2px;
+    border-radius:5px;
+    background-color: rgb(208, 206, 182);
+
+}
+
+table{
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.second{
+    padding-top: 200px;
+    width: 300px;
+    font-size: 20px;
+
+}
+
+td{
+    width: 300px;
+}
+
+.back{
+    border: black solid 2px;
+    border-radius:5px;
+    background-color: rgb(208, 206, 182);
+    text-decoration:none;
+    font-size:27px;
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
