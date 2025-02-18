@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    background-color: #232323;
+    color: rgb(232, 232, 232);
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1{
+    font-size: xx-large;
+}
+
+main{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
