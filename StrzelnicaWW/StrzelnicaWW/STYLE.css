@@ -1,0 +1,212 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(232, 232, 232);
+    text-decoration: none;
+}
+
+header{
+    background-color: #3B75C2;
+    color: rgb(232, 232, 232);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.text-logo{
+    display: flex;
+}
+
+.text-logo h1{
+    margin-left: 10px;
+}
+
+.text-logo img{
+    margin: 10px;
+}
+
+.links{
+    display: block;
+    margin-top: 30px
+}
+
+.links a{
+    margin-right: 50px;
+}
+
+section{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(23, 23, 23);
+    margin: 0;
+}
+
+main{
+    text-align: center;
+    margin-top: 19%;
+    margin-bottom: 19%;
+}
+
+/*----------------------------oferta.php---------------------------*/
+
+.zdjecia{
+    margin-top: 100px;
+    width: 1000px;
+}
+
+.hidden{
+    display: none;
+}
+
+.image{
+    cursor: pointer;
+    height: 200px;
+    padding: 7px;
+}
+
+.image:hover {
+    background-color: #3B75C2;
+}
+
+/*----------------------------oferta.php---------------------------*/
+
+table{
+    margin-left: 44%;
+    margin-top: 40px;
+}
+
+table, td{
+    vertical-align: initial;
+}
+
+.contact{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact img{
+    margin-right: 30px
+}
+
+.contact h1{
+    animation-name: colors;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes colors{
+    from {color: rgb(157, 89, 221);}
+    to {color: #3B75C2;}
+}
+
+.main{
+    position: relative;
+    text-align: center;
+}
+
+.main img{
+    height: 70%;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.main h1{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+}
+
+.main button{
+    position: absolute;
+    left: 43%;
+    top: 60%;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 2px solid #3B75C2;
+    width: 15%;
+    height: 10%;
+    font-size: 20px;
+    animation-name: border-colors;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    cursor: pointer;
+}
+
+@keyframes border-colors{
+    from {border: 2px solid rgb(157, 89, 221);}
+    to {border: 2px solid #3B75C2;}
+}
+
+.main-info{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.main-info img{
+    width: auto;
+}
+
+.location .back{
+    height: 70%;
+    width: 100%;
+    opacity: 0.2;
+}
+
+.location .gif{
+    border: 10px dotted #3B75C2;
+}
+
+.location-content{
+    list-style-position: inside;
+    position: absolute;
+    top: 130%;
+    left:20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-info{
+    margin-left: 165px;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #3B75C2;
+    text-align: center;
+}
+
+footer p{
+    margin: 0;
+}
+
+/*----------------------------formularz.php---------------------------*/
+
+.form-row{
+    margin-bottom:15px;
+}
+
+.submit{
+    background-color: #3B75C2; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.submit:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
